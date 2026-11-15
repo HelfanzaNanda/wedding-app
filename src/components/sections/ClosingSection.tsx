@@ -16,7 +16,7 @@ export function ClosingSection() {
           alt="Closing Background"
           fill
           sizes="100vw"
-          className="object-cover object-center filter brightness-[0.4] contrast-[0.95]"
+          className="object-cover object-[center_33%] filter brightness-[0.4] contrast-[0.95]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/70" />
       </div>
@@ -51,7 +51,7 @@ export function ClosingSection() {
         </div>
 
         <div className="mt-16 pt-8 border-t border-white/10 text-[11px] sm:text-xs text-white/50 font-sans tracking-wider">
-          &copy; {new Date().getFullYear()} {bride.name} &amp; {groom.name}. All
+          &copy; {new Date().getFullYear()} Elfan Nanda . All
           Rights Reserved.
         </div>
       </ScrollReveal>

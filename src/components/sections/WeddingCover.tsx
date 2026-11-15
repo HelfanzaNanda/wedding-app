@@ -24,7 +24,7 @@ export function WeddingCover({ guestName, onOpen, isOpen }: WeddingCoverProps) {
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center filter brightness-[0.75] contrast-[0.95] scale-105"
+          className="object-cover object-[center_35%] filter brightness-[0.75] contrast-[0.95] scale-105"
         />
         {/* Elegant Gradient overlays */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/60" />
@@ -54,7 +54,7 @@ export function WeddingCover({ guestName, onOpen, isOpen }: WeddingCoverProps) {
             <span>{weddingConfig.groom.name}</span>
           </h1>
           <p className="mt-6 text-[11px] sm:text-xs font-sans tracking-[0.35em] text-[#EFE8DC]/85 uppercase font-light">
-            21 March 2027
+            {weddingConfig.events.akad.date}
           </p>
         </div>
 

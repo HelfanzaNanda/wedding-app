@@ -132,7 +132,7 @@ export function WishesSection({ defaultGuestName = "" }: WishesSectionProps) {
             Doa &amp; Harapan
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-light text-[#453D35] tracking-wide">
-            Wedding Wishes &amp; RSVP
+            Ucapan &amp; Konfirmasi Kehadiran
           </h2>
           <p className="text-xs sm:text-sm font-sans text-[#6E6357] font-light mt-2 max-w-md mx-auto">
             Berikan doa restu dan konfirmasi kehadiran Anda untuk kedua mempelai

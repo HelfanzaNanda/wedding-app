@@ -41,7 +41,7 @@ export function WeddingGiftSection() {
             Tanda Kasih
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-light text-[#453D35] mb-4">
-            Wedding Gift &amp; Blessings
+            Hadiah Pernikahan
           </h2>
 
           <p className="font-sans text-xs sm:text-sm text-[#6E6357] leading-relaxed max-w-lg mx-auto font-light mb-2">

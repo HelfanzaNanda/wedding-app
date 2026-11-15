@@ -3,6 +3,7 @@ import Image from "next/image";
 import { weddingConfig } from "@/config/wedding";
 
 export function HeroSection() {
+  const { events } = weddingConfig;
   return (
     <section className="relative min-h-[95vh] sm:min-h-screen flex items-center justify-center overflow-hidden py-24 px-6 bg-[#F9F6F0]">
       {/* Background with curated wedding image and rich warm editorial overlay */}
@@ -13,7 +14,7 @@ export function HeroSection() {
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center filter brightness-[0.66] contrast-[1.02]"
+          className="object-cover object-[center_40%] filter brightness-[0.66] contrast-[1.02]"
         />
         {/* Refined warmer tones: deep espresso to warm umber and champagne mist */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#1b1510]/65 via-[#2b221a]/40 to-[#1e1712]/85" />
@@ -62,7 +63,7 @@ export function HeroSection() {
 
         {/* Wedding Date in Understated Montserrat Light */}
         <p className="text-[11px] sm:text-xs font-sans font-light tracking-[0.4em] text-[#EFE8DC]/90 uppercase">
-          21 March 2027
+          {events.akad.date}
         </p>
       </div>
 

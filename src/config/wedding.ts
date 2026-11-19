@@ -64,9 +64,9 @@ export const weddingConfig: WeddingConfig = {
   },
   bankAccounts: [
     {
-      bank: "BRI",
+      bank: "BANK MANDIRI",
       accountName: "ADINDA RODHOTUL JANNAH",
-      accountNumber: "054501009184532",
+      accountNumber: "1390029162215",
     },
     {
       bank: "BCA",
